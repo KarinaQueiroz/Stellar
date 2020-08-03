@@ -1,0 +1,234 @@
+/****************GERAIS****************************/
+*{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background: rgb(252,70,107);
+    background: linear-gradient(10deg, rgba(252,70,107,1) 11%, rgba(100,63,251,1) 99%); */
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+}
+
+h2{
+    font-weight: 100;
+}
+
+h3{
+    font-weight: 100;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+button{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button a{
+    padding: 10px;
+    color: #555;
+}
+
+/***************************************************/
+
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+
+.sections ul{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    padding: 10px; 
+}
+
+.sections li{
+    padding: 10px;
+}
+
+.sections li:hover{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.sections a{
+    color: #555;
+}
+
+.commerce-intro{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px 20px;
+    background-color: #fff;
+}
+
+.intro-text h2::before{
+    content: '';
+    border-bottom: 1px solid #000;
+    width: 20%;
+    opacity: 0.3;
+}
+
+.intro-text h2::after{
+    content: '';
+    border-bottom: 1px solid #000;
+    width: 20%;
+    opacity: 0.3;
+}
+
+.commerce-intro img{
+    border: 1px solid #ccc;
+    border-radius: 130px;
+    width: 25%;
+    padding: 10px;
+    height: auto;
+}
+
+.intro-text p{
+    padding: 50px 100px 50px 0;
+}
+
+.commerce-options{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 10px 20px;
+}
+
+.products ul{
+    display: flex;
+    text-align: center;
+}
+
+.products li{
+    margin: 30px 13px 30px;
+}
+
+.products li i{
+    padding: 45px;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    margin: 20px;
+    height: 20%;
+    font-size: 55px;
+    width: 23%;
+}
+
+.products li .fa-code{
+    color: #FFBFEF;
+}
+
+.products li .fa-copy{
+    color: #dda3ff;
+}
+
+.products li .fa-gem{
+    color: #a3dbff;
+}
+
+.products li .title-text{
+    padding: 10px 0 10px;
+}
+
+.commerce-activities{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 20px;
+}
+
+.commerce-activities .activities ul{
+    display: flex;
+    text-align: center;
+}
+
+.commerce-activities .activities{
+    padding: 0px 0 30px;
+}
+
+.commerce-activities ul li{
+    padding: 30px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.commerce-activities .activities .code{
+    background-color: #ffa3ba;
+}
+
+.commerce-activities .activities .folder{
+    background-color: #eaabe7;
+}
+
+.commerce-activities .activities .signal{
+    background-color: #dda3ff;
+}
+
+.commerce-activities .activities .laptop{
+    background-color: #a3c0ff;
+}
+
+.commerce-activities .activities .gem{
+    background-color: #a3dbff;
+}
+
+.commerce-activities .activities-text{
+    display: flex;
+    width: 100%;
+}
+
+.commerce-activities .activities-text p{
+    padding: 20px;
+    text-align: justify;
+}
+
+.commerce-start{
+    width: 50%;
+    padding: 40px 10px 20px;
+    text-align: center;
+}
+
+.commerce-start .start button{
+    margin: 10px;
+}
+
+.commerce-start .start button:hover{
+    background-color: #a3dbff;
+}
+
+.commerce-start .start button a:hover{
+    color: #fff;
+}
+
+.commerce-infos{
+    width: 50%;
+    padding: 40px 10px 20px;
+    display: flex;
+}
+
+.commerce-infos .contact{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.commerce-infos .contact .address{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.commerce-infos .contact ul{
+    display: flex;
+    
+}
