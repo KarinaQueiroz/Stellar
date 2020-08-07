@@ -31,7 +31,7 @@ h2{
 
 h3{
     font-weight: 100;
-    padding: 30px;
+    padding: 50px;
     text-align: center;
     line-height: 1.5;
 }
@@ -61,10 +61,13 @@ button a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 2;
     background: none;
     color: #fff;
     font-weight: 100;
+}
+
+.principal .logo{
+    padding-top: 30px;
 }
 
 .principal .logo img{
@@ -74,6 +77,10 @@ button a{
 .principal-text h1{
     font-size: 35px;
     font-weight: 100;
+}
+
+.principal .sub-text{
+    padding-bottom: 30px;
 }
 
 .sections{
@@ -89,12 +96,12 @@ button a{
 }
 
 .sections li{
-    padding: 0px 20px;
+    padding: 5px 20px;
 }
 
 .sections li:hover{
     background-color: #fff;
-    padding: 0px 20px;
+    padding: 5px 20px;
 }
 
 .sections a{
@@ -111,6 +118,10 @@ button a{
     border-bottom: 1px solid #ccc;
 }
 
+.commerce-intro .intro-text{
+    width: 60%;
+}
+
 .intro-text h2{
     text-align: left;
 }
@@ -124,15 +135,21 @@ button a{
 }
 
 .intro-text p{
-    padding: 50px 100px 50px 0;
+    padding: 50px 85px 50px 0;
 }
 
 .commerce-options{
     width: 50%;
-    display: flex;
-    flex-wrap: wrap;
     padding: 35px 10px;
     border-bottom: 1px solid #ccc;
+}
+
+.commerce-options .options{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .products ul{
@@ -146,12 +163,12 @@ button a{
 }
 
 .products li i{
-    padding: 35px;
+    padding: 35px 25px;
     border: 7px double #ccc;
     border-radius: 100px;
     height: auto;
     font-size: 50px;
-    width: 18%;
+    width: 30%;
 }
 
 .products li .fa-code{
@@ -172,10 +189,16 @@ button a{
 
 .commerce-activities{
     width: 50%;
-    display: flex;
-    flex-direction: column;
     padding: 35px 10px;
     border-bottom: 1px solid #ccc;
+}
+
+.commerce-activities .info-activities{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .commerce-activities .activities ul{
@@ -186,13 +209,14 @@ button a{
 }
 
 .commerce-activities .activities{
-    padding: 0px 0 30px;
+    width: 95%;
 }
 
 .commerce-activities ul li{
-    padding: 30px;
+    padding: 20px;
     color: #fff;
-    line-height: 1.5;
+    width: calc(100% / 5);
+    line-height: 0.5;
 }
 
 .commerce-activities .activities .code{
@@ -272,7 +296,6 @@ button a{
 
 .commerce-infos .contact{
     padding: 20px 10px;
-    line-height: 2;   
 }
 
 .commerce-infos .contact h4{
@@ -299,15 +322,17 @@ button a{
     color: #fff;
 }
 
-.commerce-infos .contact li i{
-    color: #fff;
+.commerce-infos .contact li{
     margin: 10px;
     border: 1px solid;
     border-radius: 25px;
-    padding: 15px;
-    font-size: 20px;
+    padding: 10px;
 }
 
-.commerce-infos .contact li i:only-of-type(1){
-    padding: 15px 18px;
+.commerce-infos .contact li i{
+    color: #fff;
+    font-size: 20px;
+    width: 21px;
+    height: 17px;
+    text-align: center;
 }
